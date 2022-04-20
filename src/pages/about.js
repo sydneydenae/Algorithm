@@ -1,4 +1,5 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -22,17 +23,19 @@ const pageStyles = {
     fontSize: "1.25rem",
     borderRadius: 4,
   }
-  
+
 const AboutPage = () => {
     return (
-      <main style={pageStyles}>
-        <title>About</title>
-        <h1 style={headingStyles}>What is Trading Algorithm?</h1>
-        <p style={paragraphStyles}>
-          Trading Algorithm is a site that anyone can use to trade. Our algorithm is designed to help
-          beginners know when to buy and sell assets!
-        </p>
-      </main>
+        <Layout>
+            <main style={pageStyles}>
+                <title>About</title>
+                <h1 style={headingStyles}>What is Trading Algorithm?</h1>
+                <p style={paragraphStyles}>
+                Trading Algorithm is a site that anyone can use to trade. Our algorithm is designed to help
+                beginners know when to buy and sell assets!
+                </p>
+            </main>
+        </Layout>
     )
   }
   
