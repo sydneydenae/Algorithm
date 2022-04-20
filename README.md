@@ -57,3 +57,10 @@ Use npm run test to run jest test
 
 Run ESLint on any file or directory like this:
 npx eslint yourfile.js
+
+Set up ESLint rules https://eslint.org/docs/rules/
+
+ESLint recommended rules are already implemented
+Look for other rules you want to implement
+Enter them in the rules section of eslintrc.json
+Find the correct format by looking at the specific rule
