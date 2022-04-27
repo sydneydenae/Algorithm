@@ -17,7 +17,7 @@
     flex-basis: 100%;
     flex-grow:0;
     flex-shrink: 0;
-    background-color:  #FFA500;
+    background-color: #6082B6;
     padding: 0;
     text-align: right;
     /*position:fixed;
@@ -51,6 +51,16 @@
     padding: 10px;
 }
 
+.footer{
+    flex: 1;
+    flex-basis: 100%;
+    flex-grow:0;
+    flex-shrink: 0;
+    background-color: #6082B6;
+    padding: 0;
+    text-align: right;
+}
+
 /*HOME PAGE*/
 .intro{
     display: flex;
@@ -60,10 +70,11 @@
     padding: 150px;
 }
 
-.footer{
+.main-content{
     display: flex;
-    background-color: #D3D3D3;
     font-size: 30px;
     height:500px;
-    padding: 0;
+    padding: 150px;
 }
+
+
