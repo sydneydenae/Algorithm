@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { container, logo, heading, navbar, navLinks, navLinkItem, navLinkText, footer } from './layout.module.css'
+import { container, logo, heading, navbar, navLinks, navLinkItem, navLinkText, intro, footer } from './layout.module.css'
 import logoImg from '../images/logo.png'
 
 const Layout = ({ pageTitle, children }) => {
@@ -15,11 +15,10 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       <main>
-        
         {children}
       </main>
       <footer className={footer}>
-        Text
+        This is the Footer!
       </footer>
     </div>
   )
