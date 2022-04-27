@@ -1,9 +1,22 @@
-import React from "react"
+import * as React from 'react'
+import { Link } from 'gatsby'
 
-export default function Layout({ children }) {
+const Layout = ({ pageTitle, children }) => {
   return (
-    <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-      {children}
+    <div>
+      <title>{pageTitle}</title>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+        </ul>
+      </nav>
+      <main>
+        <h1>{pageTitle}</h1>
+        {children}
+      </main>
     </div>
   )
 }
+
+export default Layout
