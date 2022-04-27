@@ -1,12 +1,13 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import {intro} from '../components/layout.module.css'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <div className={intro}> Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks</div>
     </Layout>
   )
 }
