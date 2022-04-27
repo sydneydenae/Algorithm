@@ -13,6 +13,8 @@
     color: rebeccapurple;
 }
 .navbar {
+    display: flex;
+    justify-content: end;
     flex: 1;
     flex-basis: 100%;
     flex-grow:0;
@@ -49,6 +51,11 @@
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
+}
+.logo{
+    display: inline-flex;
+    width: 100px;
+    margin-right:auto;
 }
 
 .footer{
