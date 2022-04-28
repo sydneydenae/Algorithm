@@ -1,8 +1,8 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
-import {intro, heading, mainContent, homeImage} from '../components/layout.module.css'
-import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
+import {intro, heading, mainContent} from '../components/layout.module.css'
 
 
 // Step 2: Define your component
@@ -11,7 +11,9 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <div className={intro}>
       <h2 className={heading}>Trading Algorithm</h2>
-        Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks!</div>
+        Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks!
+        <Link to="/about">Click here to learn more!</Link>
+        </div>
       <div className={mainContent}>
       </div>
     </Layout>
