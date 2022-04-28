@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <div className={intro}>
-      <h2 className={heading}>Home Page</h2>
+      <h2 className={heading}>Trading Algorithm</h2>
         Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks!</div>
       <div className={mainContent}>Main Content</div>
     </Layout>
