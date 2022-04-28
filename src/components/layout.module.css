@@ -76,6 +76,7 @@
 /*HOME PAGE*/
 .intro{
     display: flex;
+    justify-content: center;
     background-color: #D3D3D3;
     font-size: 30px;
     padding: 100px;
@@ -84,13 +85,21 @@
 }
 
 .main-content{
-    display: flex;
-    font-size: 30px;
-    height:500px;
+    height:400px;
     padding: 150px;
     background-image: url('../images/my_stock.jpeg');
-    transition: .5s;
+    transition: 0.3s;
 }
+
+/*ABOUT*/
+.main-content2{
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    background-image: url('../images/computer.jpeg');
+}
+
 
 /*Form*/
 .form{
@@ -114,5 +123,10 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
+.radio-buttons{
+    font-size: 30px;
+    margin: 10px;
+}
+
 
 
