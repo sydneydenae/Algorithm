@@ -93,4 +93,21 @@
     padding: 150px;
 }
 
+/*Form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 550px;
+}
+.form-blocks{
+    flex: 1;
+    margin: 20px;
+    font-size: 30px;
+    width: 100%;
+}
+.input-box{
+    height: 30px;
+}
+
 

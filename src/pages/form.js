@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import {form, formBlocks, inputBox} from '../components/layout.module.css'
 
 
 // Step 2: Define your component
@@ -27,28 +28,28 @@ export default class FormPage extends React.Component{
     render () {
     return (
         <Layout pageTitle="Form">
-        <form onSubmit={this.handleSubmit}>
-            <label>
-            First name
-            <input
+        <form onSubmit={this.handleSubmit} className={form}>
+            <label className={formBlocks}>
+            First Name:&nbsp;
+            <input className={inputBox}
                 type="text"
                 name="firstName"
                 value={this.state.firstName}
                 onChange={this.handleInputChange}
             />
             </label>
-            <label>
-            Last name
-            <input
+            <label className={formBlocks}>
+            Last Name:&nbsp;
+            <input className={inputBox}
                 type="text"
                 name="lastName"
                 value={this.state.lastName}
                 onChange={this.handleInputChange}
             />
             </label>
-            <label>
-            E-mail
-            <input
+            <label className={formBlocks}>
+            E-mail:&nbsp;
+            <input className={inputBox}
                 type="text"
                 name="email"
                 value={this.state.email}
@@ -56,7 +57,7 @@ export default class FormPage extends React.Component{
             />
             </label>
             <label></label>
-            <button type="submit">Submit</button>
+            <button type="submit" >Submit</button>
         </form>
         </Layout>
     )
