@@ -13,7 +13,6 @@ const IndexPage = () => {
       <h2 className={heading}>Demo</h2>
         Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks! Work with us and
         make easy money from the comfort of your own home.
-        <Link to="/about"><br/>Click here to learn more!</Link>
         </div>
       <div className={mainContent3}>
       </div>
