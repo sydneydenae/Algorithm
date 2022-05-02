@@ -11,8 +11,8 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <div className={intro}>
       <h2 className={heading}>Demo</h2>
-        Our custom trading algorithm makes it easy for the average person to know when to buy and sell their stocks! Work with us and
-        make easy money from the comfort of your own home.
+        After your information is processed and our team gets back to you, your trading will be carried 
+        out by one of our state of the art algorithms created by Angel Cairo or Paul Gabriel.
         </div>
       <div className={mainContent3}>
       </div>
