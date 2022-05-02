@@ -1,7 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
+import ReactPlayer from 'react-player'
 import {intro, heading, mainContent3} from '../components/layout.module.css'
 
 
@@ -15,6 +15,7 @@ const IndexPage = () => {
         out by one of our state of the art algorithms created by Angel Cairo or Paul Gabriel.
         </div>
       <div className={mainContent3}>
+      <ReactPlayer url="https://www.youtube.com/watch?v=Mbh90QNGKE8"/>
       </div>
     </Layout>
   )

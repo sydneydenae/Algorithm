@@ -128,10 +128,11 @@
     margin: 10px;
 }
 
-.main-content2{
+.main-content3{
     height:400px;
-    
     padding: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 
