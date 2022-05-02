@@ -8,7 +8,7 @@ import {intro, mainContent2, heading} from '../components/layout.module.css'
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About">
       <div className={intro}>
       <h2 className={heading}>What is Trading Algorithm?</h2>
       Trading Algorithm is a custom algorithm that takes in data from Yahoo Finance and automatically buys and sells stocks based on current prices.

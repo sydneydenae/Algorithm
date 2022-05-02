@@ -129,10 +129,15 @@
 }
 
 .main-content3{
-    height:400px;
+    height:auto;
     padding: 150px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video{
+    margin: 20px;
 }
 
 
