@@ -2,7 +2,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-import {intro, heading, mainContent} from '../components/layout.module.css'
+import {intro, heading, mainContent3} from '../components/layout.module.css'
 
 
 // Step 2: Define your component
@@ -15,7 +15,7 @@ const IndexPage = () => {
         make easy money from the comfort of your own home.
         <Link to="/about"><br/>Click here to learn more!</Link>
         </div>
-      <div className={mainContent}>
+      <div className={mainContent3}>
       </div>
     </Layout>
   )
