@@ -16,7 +16,7 @@ const AboutPage = () => {
       </div>
       <div className={mainContent3}>
       <ReactPlayer className = {video} url="https://www.youtube.com/watch?v=Mbh90QNGKE8"/>
-      <ReactPlayer className = {video} url="https://vimeo.com/705500732/969c38f9e5"/>
+      <ReactPlayer className = {video} url="https://www.youtube.com/watch?v=6lQjgpzEu7A"/>
       </div>
     </Layout>
   )
